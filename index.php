@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hillana Bakery</title>
-    <link rel="stylesheet" href="index.css">
+    <title>this is a website</title>
 </head>
 <body>
-    <section class="main">
-        <nav>
-            <a href="index.php" class="logo">
-                <img src="hillana logo.png" alt="">
-            </a>
-            <ul class="menu">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="About">About</a></li>
-                <li><a href="Chefs">Chefs</a></li>
-                <li><a href="Place an order">Place an order</a></li>
+    <div class="main">
+        <h1>HILLANA BAKERY</h1>
+        <p>This is the official website for Hillan bakery</p>
+    </div>
 
-            </ul>
-        </nav>
-        <div class="main_heading">
-            <h1 contenteditable="true">Baking quality Cakes</h1>
-            <p>Working towards provision of quality law- based services</p>
-            <a class="main-btn" href="Chefs">Contact</a>
-        </div>
-    </section>
+    <div class="navigation">
+        <ul>
+        <li><a href="menu.php">MENU</a></li>
+            <li><a href="order.php">ORDER</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+
+    </div>
 </body>
 </html>
